@@ -27,7 +27,7 @@ A web application that allows users to record speech through a microphone, conve
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/speech2text.git
+   git clone https://github.com/yourusername/traveltranslator1.git
    cd speech2text
    ```
 
@@ -40,7 +40,8 @@ A web application that allows users to record speech through a microphone, conve
 
 3. Create a `.env.local` file in the root directory with your API keys (for production use):
    ```
-   GOOGLE_APPLICATION_CREDENTIALS=your-credentials-file.json
+   GOOGLE_CREDENTIALS=your-credentials-file.json
+   GOOGLE_API_KEY=gemini_api_key
    ```
 
 4. Start the development server:
